@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, forwardRef } from "react";
+import React, { useEffect, forwardRef } from "react";
 import { findDOMNode } from "react-dom";
 import PropTypes from "prop-types";
 
@@ -214,7 +214,7 @@ const InputMask = forwardRef(function InputMask(props, forwardedRef) {
   const lastSelection = lastState.selection;
   const lastValue = lastState.value;
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     if (!isMasked) {
       return;
     }
