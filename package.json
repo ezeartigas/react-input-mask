@@ -72,7 +72,8 @@
    ],
    "scripts": {
       "clean": "rimraf lib dist",
-      "build": "cross-env BABEL_ENV=rollup rollup -c"
+      "build": "cross-env BABEL_ENV=rollup rollup -c",
+      "prepare": "npm run clean && npm run build"
    },
    "repository": {
       "type": "git",
