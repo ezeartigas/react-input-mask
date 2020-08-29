@@ -1,4 +1,4 @@
-# Read before install
+# About this fork
 If you run SSR code you will get the next warning on the original repo: **Warning: useLayoutEffect does nothing on the server (...)**
 
 This fork remove the useEffectLayout and use an isomorphic file so the warning above is "fixed" (This patch is currently being used in react-redux and react-beautiful-dnd)
@@ -22,7 +22,7 @@ Input masking component for React. Made with attention to UX.
 * [Known Issues](#known-issues)
 
 # Installation
-```npm install react-input-mask@next --save```
+```npm i git+https://git@github.com/ezeartigas/react-input-mask --save```
 
 react-input-mask requires **React 16.8.0 or later.** If you need support for older versions, use [version 2](https://github.com/sanniassin/react-input-mask/tree/v2).
 
