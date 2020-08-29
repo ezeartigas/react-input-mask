@@ -1,3 +1,4 @@
+# Read before install
 If you run SSR code you will get the next warning on the original repo: **Warning: useLayoutEffect does nothing on the server (...)**
 
 This fork remove the useEffectLayout and use an isomorphic file so the warning above is "fixed" (This patch is currently being used in react-redux and react-beautiful-dnd)
