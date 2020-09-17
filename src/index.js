@@ -1,5 +1,4 @@
-import React, { forwardRef } from 'react';
-import useLayoutEffect from './utils/use-isomorphic-layout-effect';
+import React, { useEffect, forwardRef } from 'react';
 import { findDOMNode } from 'react-dom';
 import PropTypes from 'prop-types';
 
@@ -218,7 +217,7 @@ const InputMask = forwardRef(function InputMask(props, forwardedRef) {
    const lastSelection = lastState.selection;
    const lastValue = lastState.value;
 
-   useLayoutEffect(() => {
+   useEffect(() => {
       if (!isMasked) {
          return;
       }
