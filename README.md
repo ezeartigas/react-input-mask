@@ -25,7 +25,7 @@ Input masking component for React. Made with attention to UX.
 
 # Installation
 
-`npm install react-input-mask@next --save`
+`npm i git+https://git@github.com/ezeartigas/react-input-mask --save`
 
 react-input-mask requires **React 16.8.0 or later.** If you need support for older versions, use [version 2](https://github.com/sanniassin/react-input-mask/tree/v2).
 
